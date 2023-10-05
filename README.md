@@ -20,8 +20,9 @@ tar xJvf jumanpp-1.01.tar.xz
 cd jumanpp-1.01
 ./configure
 make
-sudo make instal
+sudo make install
 ```
+
 
 ### Python3
 
@@ -34,7 +35,8 @@ Python 3.10.12
 
 If not installed, try searching "How to install Python3" on the internet. 
 
-** sed
+
+### sed
 
 Finally, you should have `sed` installed. Try typing `sed --version` on your terminal. Mine looks like this:
 
@@ -57,6 +59,8 @@ GNU sed home page: <https://www.gnu.org/software/sed/>.
 General help using GNU software: <https://www.gnu.org/gethelp/>.
 E-mail bug reports to: <bug-sed@gnu.org>.
 ```
+
+
 
 ## Installation
 
