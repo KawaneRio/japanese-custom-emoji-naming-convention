@@ -1,9 +1,9 @@
 # japanese-custom-emoji-naming-convention
 This is a bash command + python script that converts Japanese echo text into a string of ASCII-compatible lowercase latin. The naming convention is based on the [Nihonsiki](https://en.wikipedia.org/wiki/Nihon-shiki_romanization) Romanization System for strict transliteration of Japanese. (See ISO 3602 Strict)
 
-* Prerequisities
+## Prerequisities
 
-** JUMAN++
+### JUMAN++
 
 You will need to be able to run `jumanpp` command. Try running `jumanpp -v` in your terminal. Mine looks like this:
 
@@ -23,7 +23,7 @@ make
 sudo make instal
 ```
 
-** Python3
+### Python3
 
 You will also need to be able to run `python3`. Try running `python3 --version` on your terminal. Mine looks like this:
 
@@ -58,5 +58,5 @@ General help using GNU software: <https://www.gnu.org/gethelp/>.
 E-mail bug reports to: <bug-sed@gnu.org>.
 ```
 
-* Installation
+## Installation
 
