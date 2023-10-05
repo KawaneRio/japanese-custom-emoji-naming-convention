@@ -1,5 +1,5 @@
 # japanese-custom-emoji-naming-convention
-This is a bash command + python script that converts Japanese echo text into a string of ASCII-compatible lowercase latin. The naming convention is based on the [Nihonsiki](https://en.wikipedia.org/wiki/Nihon-shiki_romanization) Romanization System for strict transliteration of Japanese. (See ISO 3602 Strict)
+japanese-custom-emoji-naming-convention is a bash command + python script that converts Japanese echo text into a string of ASCII-compatible lowercase latin. The naming convention is based on the [Nihonsiki](https://en.wikipedia.org/wiki/Nihon-shiki_romanization) Romanization System for strict transliteration of Japanese. (See ISO 3602 Strict)
 
 ## Prerequisities
 
@@ -94,3 +94,14 @@ However, you are still free to submit Issues at https://github.com/KawaneRio/jap
 ## License
 
 [MIT-0](https://github.com/aws/mit-0)
+
+
+
+
+## Citation
+
+The following information may be useful when citing this work.
+
+```
+
+```
