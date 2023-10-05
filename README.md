@@ -64,3 +64,28 @@ E-mail bug reports to: <bug-sed@gnu.org>.
 
 ## Installation
 
+Open the [hiragana_to_latin.py](https://github.com/KawaneRio/japanese-custom-emoji-naming-convention/blob/main/hiragana_to_latin.py) and edit Line 4 so it matches with the location of Japanese-Latin_Conversion_Table2, which should be in the same directory.
+
+After that, run the following command from the same directory:
+
+```
+echo "そのカスタム絵文字いつ使うんだよ…" | jumanpp --force-single-path | sed -n 's/[^ ]* \([^ ]*\) .*/\1_/p' | tr -d '\n' | python3 hiragana_to_latin.py
+```
+
+You should see 
+
+```
+sono_kasutamu_e_mozi_itu_tukau_nda_yo__ooo
+```
+
+as the output.
+
+
+Edit the content inside `echo "そのカスタム絵文字いつ使うんだよ…"` to get the transcription for Japanese emoji names in ASCII-compatible, lowercase latin.
+
+
+## Issues
+
+This repository is not being actively maintained and exists here for archival purposes only. In other words, the developer (@KawaneRio) is not actively maintaining this code.
+
+However, you are still free to submit Issues at https://github.com/KawaneRio/japanese-custom-emoji-naming-convention/issues . 
