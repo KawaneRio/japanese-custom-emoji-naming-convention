@@ -103,5 +103,13 @@ However, you are still free to submit Issues at https://github.com/KawaneRio/jap
 The following information may be useful when citing this work.
 
 ```
-
+@software{kawanerio_japanese-custom-emoji-naming-convention_2023,
+	title = {japanese-custom-emoji-naming-convention},
+	rights = {{MIT}-0},
+	url = {https://github.com/KawaneRio/japanese-custom-emoji-naming-convention/tree/main},
+	abstract = {japanese-custom-emoji-naming-convention is a bash command + python script that converts Japanese echo text into a string of {ASCII}-compatible lowercase latin. The naming convention is based on the Nihonsiki Romanization System for strict transliteration of Japanese. ({ISO} 3602 Strict)},
+	version = {v1.0.0},
+	author = {{川音リオ@KawaneRio}},
+	date = {2023-10-06},
+}
 ```
