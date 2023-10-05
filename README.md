@@ -89,3 +89,8 @@ Edit the content inside `echo "そのカスタム絵文字いつ使うんだよ�
 This repository is not being actively maintained and exists here for archival purposes only. In other words, the developer (@KawaneRio) is not actively maintaining this code.
 
 However, you are still free to submit Issues at https://github.com/KawaneRio/japanese-custom-emoji-naming-convention/issues . 
+
+
+## License
+
+[MIT-0](https://github.com/aws/mit-0)
